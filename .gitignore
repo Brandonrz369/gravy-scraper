@@ -1,0 +1,14 @@
+# Exclude Python virtual environment
+venv/
+
+# Exclude Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Exclude logs
+logs/
+*.log
+
+# Exclude API keys and secrets from version control
+config.json
